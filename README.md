@@ -1,9 +1,9 @@
 # Beth's AI Tools
 This repo contains a list of the tools I've made to make it easy to interact with OpenAI's artificial intelligences, such as GPT-3 and DALL-E.
 
-Since the OpenAI APIs cost money, you will need to provide your own API token, which you can get from here: https://beta.openai.com/account/api-keys
+Since the OpenAI APIs cost money, you will need to provide your own API token. The instructions below will guide you on how to do that, and how to use the tools.
 
-**Note:** You will need to create an OpenAI account before you can get an API key from that link. At the time of writing this, you get $18 worth of free credits when you first sign up for an account.
+**All of these were built for function, not beauty.**
 
 # How to use
 1. Create an account at: [beta.openai.com/signup](https://beta.openai.com/signup)
@@ -14,7 +14,6 @@ Since the OpenAI APIs cost money, you will need to provide your own API token, w
 
 **Note:** Your token is stored locally in your web browser. It is never transmitted to me in any capacity.
 
-**All of these were built for function, not beauty.**
 
 # GPT-3 Chat
 This tool allows you to send prompts to GPT-3, and it displays the results in the format of a text chat.
