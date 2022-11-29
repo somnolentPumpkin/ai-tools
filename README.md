@@ -5,7 +5,14 @@ Since the OpenAI APIs cost money, you will need to provide your own API token, w
 
 **Note:** You will need to create an OpenAI account before you can get an API key from that link. At the time of writing this, you get $18 worth of free credits when you first sign up for an account.
 
-All you have to do is paste that API key onto the page of one of the tools where it asks, and it will remember the token so you only have to paste it in once. The token is stored in your local browser; it is never transmitted to me in any capacity.
+# How to use
+1. Create an account at: [beta.openai.com/signup](https://beta.openai.com/signup)
+2. Generate an [API key](https://beta.openai.com/account/api-keys) and copy it to your clipboard.
+3. Open the tool you want to use and paste your API key where it asks for an API token.
+4. Type in your prompt and submit it.
+5. Wait for the result!
+
+**Note:** Your token is stored locally in your web browser. It is never transmitted to me in any capacity.
 
 **All of these were built for function, not beauty.**
 
