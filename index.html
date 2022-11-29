@@ -4,7 +4,6 @@
         <style type="text/css">
             body {
                 font-family: arial;
-                margin: 0px auto;
                 overflow-wrap: anywhere;
                 
             }
@@ -20,42 +19,92 @@
                 padding: 25px;
                 background-color: #eee;
             }
+            h3 {
+                width: 80%;
+                font-size: 30px;
+                margin: 50px auto;
+                border-bottom: 1px solid #ddd;
+                border-top: 1px solid #ddd;
+                padding: 10px;
+            }
             img {
                 max-width: 100%;
+            }
+            p.link-paragraph {
+                margin: 20px auto;
+            }
+            a.link-button {
+                text-decoration: none;
+                padding: 10px 20px;
+                border: 1px solid #ddd;
+                width: 5000px;
+                border-radius: 15px;
+                background-color: #eee;
+    
+            }
+            ol {
+                max-width: 70%;
+                margin: 20px auto;
+                font-size: 20px;
+                line-height: 32px;
+                border-left: 2px solid #ddd;
+            }
+            a.link-button:hover {
+                background-color: #888;
             }
         </style>
     </head>
     <body>
         <h1>Beth's AI Tools</h1>
         <p>This repo contains a list of the tools I've made to make it easy to interact with OpenAI's artificial intelligences, such as GPT-3 and DALL-E.</p>
-        <p>Since the OpenAI APIs cost money, you will need to provide your own API token, which you can get from here: <a href="https://beta.openai.com/account/api-keys">https://beta.openai.com/account/api-keys</a></p>
-        <p><strong>Note:</strong> You will need to create an OpenAI account before you can get an API key from that link. At the time of writing this, you get $18 worth of free credits when you first sign up for an account.</p>
-        <p>All you have to do is paste that API key onto the page of one of the tools where it asks, and it will remember the token so you only have to paste it in once. The token is stored in your local browser; it is never transmitted to me in any capacity.</p>
-        <p><strong>All of these were built for function, not beauty.</strong></p>
-        <br/>
+        <p>Since the OpenAI APIs cost money, you will need to provide your own API token in order to use these tools.
+            <h3>How to use</h3>
+            <p>To get started with these tools:</p>
+            <p>
+                <ol>
+                    <li>Create an account at <a target="_blank" href="https://beta.openai.com/signup">beta.openai.com/signup</a>.</li>
+                    <li>Generate an <a target="_blank" href="https://beta.openai.com/account/api-keys">API key</a> and copy it to your clipboard.</li>
+                    <li>Go to one of the tools below, and paste your API key where it asks for an API token.</li>
+                    <li>Type in your prompt and submit it.</li>
+                    <li>Wait for the result!</li>
+                </ol>
+            </p>
+            
+        <p>At the time of writing this, you get $18 worth of free credits when you first sign up for an OpenAI account.</p>
+        <p><strong>Note:</strong> Your token is stored locally in your web browser. It is never transmitted to me in any capacity.</p>
+        <p><strong>All of these tools were built for function, not beauty.</strong></p>
         <h1>GPT-3 Chat</h1>
+        <h3>Description</h3>
         <p>This tool allows you to send prompts to GPT-3, and it displays the results in the format of a text chat.</p>
-
-        <p><strong>Link to the tool:</strong> <a href="https://somnolentpumpkin.github.io/gpt3-chat-interface/">https://somnolentpumpkin.github.io/gpt3-chat-interface/</a></p>
-        <p><strong>Link to the code:</strong> <a href="https://github.com/somnolentpumpkin/gpt3-chat-interface">https://github.com/somnolentpumpkin/gpt3-chat-interface</a></p>
-        <p><strong>Screenshot:</strong></p>
+        <h3>About this tool</h3>
+        <p>This was the first AI tool I built. After I first tried out GPT-3, I got so addicted to it, that I started to wish I could do prompts from my phone. I decided to build this web interface so I could do it from either my phone or desktop, and I thought the chat format was fun and immersive.</p>
+        <p>Its creation was very rushed and I didn't work on it much after it reached a functional state, but it served as the base on which I built the other two AI tools.</p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://somnolentpumpkin.github.io/gpt3-chat-interface/">Link to the tool</a></p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://github.com/somnolentpumpkin/gpt3-chat-interface">Link to the code</a></p>
+        <h3>Screenshot</h3>
         <p><img src="https://user-images.githubusercontent.com/16698761/204412506-b1a1d2ef-8bbf-41d6-9e33-e85b037f1c87.png"/></p>
         <br/>
         <h1>GPT-3 Sentiment Analysis</h1>
+        <h3>Description</h3>
         <p>You can technically do sentiment analysis using GPT-3 Chat, but this tool is specifically designed for it. You paste in some text, and it outputs the detected sentiment.</p>
-        <p><strong>Link to the tool:</strong> <a href="https://somnolentpumpkin.github.io/gpt3-sentiment-analysis/">https://somnolentpumpkin.github.io/gpt3-sentiment-analysis/</a></p>
-        <p><strong>Link to the code:</strong> <a href="https://github.com/somnolentpumpkin/gpt3-sentiment-analysis">https://github.com/somnolentpumpkin/gpt3-sentiment-analysis</a></p>
-        <p><strong>Screenshot:</strong></p>
+        <h3>About this tool</h3>
+        <p>This tool was the product of a joke between me and a friend. I jokingly told them they were being negative, and they denied it, so I set this up so I could prove it.</p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://somnolentpumpkin.github.io/gpt3-sentiment-analysis/">Link to the tool</a></p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://github.com/somnolentpumpkin/gpt3-sentiment-analysis">Link to the code</a></p>
+        <h3>Screenshot</h3>
         <p><img src="https://user-images.githubusercontent.com/16698761/204412954-0a681cd9-1cb3-4c93-b023-2b04c5cb5c13.png"/></p>
         <p><img src="https://user-images.githubusercontent.com/16698761/204413230-b748d8d0-fd85-4052-8e29-997f7eb54bbf.png"/></p>
         <h1>DALL-E Web Interface</h1>
+        <h3>Description</h3>
         <p>This tool lets you type in a prompt, and DALL-E generates an image based on your prompt. You can choose from three different resolutions, and you can also generate up to 10 images at a time.</p>
         <p>This tool doesn't save your images for you, so make sure you save them by right clicking and selecting <strong>Save As</strong>.</p>
-        <p><strong>Link to the tool:</strong> <a href="https://somnolentpumpkin.github.io/dalle-web-interface/">https://somnolentpumpkin.github.io/dalle-web-interface/</a></p>
-        <p><strong>Link to the code:</strong> <a href="https://github.com/somnolentpumpkin/dalle-web-interface">https://github.com/somnolentpumpkin/dalle-web-interface</a></p>
-        <p><strong>Screenshot:</strong></p>
+        <h3>About this tool</h3>
+        <p>I've been obsessed with AI-generated images ever since the technology became even remotely accessible. When the DALL-E API left became open to the public, I had to start playing with it right away.</p>
+        <p>Like with GPT-3, it was only a matter of time before I HAD to have an easy way to do it from my phone or desktop, and I'm really happy with how this tool turned out.</p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://somnolentpumpkin.github.io/dalle-web-interface/">Link to the tool</a></p>
+        <p class="link-paragraph"><a class="link-button" target="_blank" href="https://github.com/somnolentpumpkin/dalle-web-interface">Link to the code</a></p>
+        <br/>
+        <h3>Screenshot</h3>
         <p><img src="https://user-images.githubusercontent.com/16698761/204413794-24e9a52a-73c3-4434-93bb-ce4c70514f92.png"/></p>
-
-
     </body>
 </html>
