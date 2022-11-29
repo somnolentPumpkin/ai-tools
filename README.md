@@ -24,7 +24,8 @@ This tool allows you to send prompts to GPT-3, and it displays the results in th
 
 **Screenshot:**
 
-![image](https://user-images.githubusercontent.com/16698761/204412506-b1a1d2ef-8bbf-41d6-9e33-e85b037f1c87.png)
+![image](https://user-images.githubusercontent.com/16698761/204671538-f7160e89-732d-4015-a921-cd052aea11b1.png)
+
 
 # GPT-3 Sentiment Analysis
 You can technically do sentiment analysis using GPT-3 Chat, but this tool is specifically designed for it. You paste in some text, and it outputs the detected sentiment.
